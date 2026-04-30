@@ -63,14 +63,14 @@ const Auth = () => {
     <div className="min-h-screen grid lg:grid-cols-2 bg-subtle">
       <div className="hidden lg:flex flex-col justify-between p-12 bg-steel text-primary-foreground">
         <Link to="/auth" className="flex items-center gap-2">
-          <div className="h-9 w-9 rounded-md bg-primary-foreground/10 grid place-items-center font-bold">S</div>
-          <span className="font-bold text-xl">Steelboard</span>
+          <div className="h-9 w-9 rounded-md bg-primary-foreground/10 grid place-items-center font-bold">T</div>
+          <span className="font-bold text-xl">TaskFlow</span>
         </Link>
         <div className="space-y-4 max-w-md">
           <h1 className="text-4xl font-bold leading-tight">Plan projects. Assign tasks. Ship work — together.</h1>
           <p className="text-primary-foreground/70 text-lg">A focused team task manager with role-based access, due-date tracking, and discussion built in.</p>
         </div>
-        <p className="text-sm text-primary-foreground/50">© Steelboard</p>
+        <p className="text-sm text-primary-foreground/50">© TaskFlow</p>
       </div>
       <div className="flex items-center justify-center p-6">
         <Card className="w-full max-w-md p-8 shadow-elevated">

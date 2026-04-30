@@ -19,8 +19,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       <aside className="hidden md:flex w-64 flex-col bg-sidebar text-sidebar-foreground border-r border-sidebar-border">
         <div className="px-6 py-6 border-b border-sidebar-border">
           <Link to="/" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-md bg-steel grid place-items-center text-primary-foreground font-bold">S</div>
-            <span className="font-bold text-lg tracking-tight text-sidebar-primary">Steelboard</span>
+            <div className="h-8 w-8 rounded-md bg-steel grid place-items-center text-primary-foreground font-bold">T</div>
+            <span className="font-bold text-lg tracking-tight text-sidebar-primary">TaskFlow</span>
           </Link>
         </div>
         <nav className="flex-1 p-3 space-y-1">
@@ -47,8 +47,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       <main className="flex-1 min-w-0">
         <header className="md:hidden sticky top-0 z-10 bg-card border-b border-border px-4 py-3 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <div className="h-7 w-7 rounded-md bg-steel grid place-items-center text-primary-foreground font-bold text-sm">S</div>
-            <span className="font-bold tracking-tight">Steelboard</span>
+            <div className="h-7 w-7 rounded-md bg-steel grid place-items-center text-primary-foreground font-bold text-sm">T</div>
+            <span className="font-bold tracking-tight">TaskFlow</span>
           </Link>
           <div className="flex items-center gap-2">
             <Link to="/projects" className="text-sm font-medium px-2">Projects</Link>
