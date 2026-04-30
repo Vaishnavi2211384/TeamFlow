@@ -1,3 +1,4 @@
+//update config files
 import type { Config } from "tailwindcss";
 
 export default {
